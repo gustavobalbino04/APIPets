@@ -11,8 +11,8 @@ namespace PetsApi.Interfaces
         List<TipoPet> ListarTodos();
         TipoPet BuscarPorID(int id);
         TipoPet Cadastrar(TipoPet a);
-        TipoPet Alterar(TipoPet a);
-        TipoPet Excluir(TipoPet a);
+        TipoPet Alterar(int id, TipoPet a);
+        TipoPet Excluir(int id);
 
     }
 }

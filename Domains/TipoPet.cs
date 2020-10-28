@@ -8,6 +8,6 @@ namespace PetsApi.Domains
     public class TipoPet
     {
         public int IdTipoPet { get; set; }
-        public string Descricaotipo { get; set; }
+        public string Descricao { get; set; }
     }
 }

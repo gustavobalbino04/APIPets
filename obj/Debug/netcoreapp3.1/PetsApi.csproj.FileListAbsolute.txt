@@ -1,8 +1,6 @@
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.csprojAssemblyReference.cache
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.AssemblyInfoInputs.cache
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.AssemblyInfo.cs
-C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.csproj.CoreCompileInputs.cache
-C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -25,3 +23,12 @@ C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.csp
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.dll
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.pdb
 C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.genruntimeconfig.cache
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\PetsApi.xml
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.csproj.CoreCompileInputs.cache
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\balbi\Desktop\Senai\api\API\PetsApi\obj\Debug\netcoreapp3.1\PetsApi.xml

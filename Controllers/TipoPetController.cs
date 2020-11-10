@@ -15,7 +15,12 @@ namespace PetsApi.Controllers
     public class TipoPetController : ControllerBase
     {
         TipoPetRepositories repositorio = new TipoPetRepositories();
+
         // GET: api/<TipoPetController>
+        /// <summary>
+        /// Listada os tipos de pets cadastrado
+        /// </summary>
+        /// <returns>retorna a lista de tipo pets</returns>
         [HttpGet]
         public List<TipoPet> Get()
         {
@@ -23,6 +28,11 @@ namespace PetsApi.Controllers
         }
 
         // GET api/<TipoPetController>/5
+        /// <summary>
+        /// Listada de tipos pets pelo id
+        /// </summary>
+        /// <param name="id">Id TiposPets</param>
+        /// <returns>Retorna a lista de TiposPets pelo Id</returns>
         [HttpGet("{id}")]
         public TipoPet Get(int id)
         {
@@ -30,6 +40,11 @@ namespace PetsApi.Controllers
         }
 
         // POST api/<TipoPetController>
+        /// <summary>
+        /// Cadastra um tipo de pet
+        /// </summary>
+        /// <param name="a">novo tipoPtes</param>
+        /// <returns>Cadastro de TipoPet</returns>
         [HttpPost]
         public TipoPet Post([FromBody] TipoPet a)
         {
@@ -37,6 +52,12 @@ namespace PetsApi.Controllers
         }
 
         // PUT api/<TipoPetController>/5
+        /// <summary>
+        /// Altera o tipopet
+        /// </summary>
+        /// <param name="id">Pet</param>
+        /// <param name="a">TipoPet</param>
+        /// <returns>Retorna o tipoPet alterado</returns>
         [HttpPut("{id}")]
         public TipoPet Put(int id, [FromBody] TipoPet a)
         {
@@ -44,6 +65,10 @@ namespace PetsApi.Controllers
         }
 
         // DELETE api/<TipoPetController>/5
+        /// <summary>
+        /// Exclui um TipoPet
+        /// </summary>
+        /// <param name="id">TipoPet</param>
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PetsApi</name>
+    </assembly>
+    <members>
+        <member name="M:PetsApi.Controllers.RacaController.Get">
+            <summary>
+            Lista as Raça
+            </summary>
+            <returns>Retorna um lista de Raças</returns>
+        </member>
+        <member name="M:PetsApi.Controllers.RacaController.Get(System.Int32)">
+            <summary>
+            lista por Id as raça
+            </summary>
+            <param name="id">Pets</param>
+            <returns>Retorna lista de raça por id</returns>
+        </member>
+        <member name="M:PetsApi.Controllers.RacaController.Post(PetsApi.Domains.Raca)">
+            <summary>
+            Cadastra um raça
+            </summary>
+            <param name="a">Raça</param>
+        </member>
+        <member name="M:PetsApi.Controllers.RacaController.Put(System.Int32,PetsApi.Domains.Raca)">
+            <summary>
+            Altera um raça
+            </summary>
+            <param name="id">Raca</param>
+            <param name="a">Pets</param>
+        </member>
+        <member name="M:PetsApi.Controllers.RacaController.Delete(System.Int32)">
+            <summary>
+            Deleta uma raca
+            </summary>
+            <param name="id">Pets</param>
+        </member>
+        <member name="M:PetsApi.Controllers.TipoPetController.Get">
+            <summary>
+            Listada os tipos de pets cadastrado
+            </summary>
+            <returns>retorna a lista de tipo pets</returns>
+        </member>
+        <member name="M:PetsApi.Controllers.TipoPetController.Get(System.Int32)">
+            <summary>
+            Listada de tipos pets pelo id
+            </summary>
+            <param name="id">Id TiposPets</param>
+            <returns>Retorna a lista de TiposPets pelo Id</returns>
+        </member>
+        <member name="M:PetsApi.Controllers.TipoPetController.Post(PetsApi.Domains.TipoPet)">
+            <summary>
+            Cadastra um tipo de pet
+            </summary>
+            <param name="a">novo tipoPtes</param>
+            <returns>Cadastro de TipoPet</returns>
+        </member>
+        <member name="M:PetsApi.Controllers.TipoPetController.Put(System.Int32,PetsApi.Domains.TipoPet)">
+            <summary>
+            Altera o tipopet
+            </summary>
+            <param name="id">Pet</param>
+            <param name="a">TipoPet</param>
+            <returns>Retorna o tipoPet alterado</returns>
+        </member>
+        <member name="M:PetsApi.Controllers.TipoPetController.Delete(System.Int32)">
+            <summary>
+            Exclui um TipoPet
+            </summary>
+            <param name="id">TipoPet</param>
+        </member>
+    </members>
+</doc>
